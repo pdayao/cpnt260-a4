@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -13,9 +14,12 @@ body {
 #hero {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
-    url("https://images.pexels.com/photos/674580/pexels-photo-674580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
-      no-repeat center bottom / cover;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),
+    url("https://images.pexels.com/photos/674580/pexels-photo-674580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: whitesmoke;
 }
 
@@ -24,6 +28,7 @@ body {
   height: 100%;
   max-width: 40ch;
   margin: 0 auto;
+
   display: flex;
   align-items: center;
   justify-content: left;
@@ -57,8 +62,9 @@ body {
   color: #ee6c09;
 }
 
+/* For mobile vers. */
 @media only screen and (max-width: 768px) {
   html {
-    font-size: 10px;
+    font-size: 17px;
   }
 }
