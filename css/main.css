@@ -16,7 +16,7 @@ body {
   width: 100%;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.456), rgba(0, 0, 0, 0.463)),
-    url(./assets/images/sunflowers&cat.jpeg);
+    url("https://images.pexels.com/photos/674580/pexels-photo-674580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
