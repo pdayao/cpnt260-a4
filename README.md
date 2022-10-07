@@ -8,4 +8,4 @@ GH Pages: \
 # Resources
 - https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient#:~:text=The%20linear%2Dgradient()%20CSS,special%20kind%20of%20.
 - https://www.w3schools.com/cssref/css3_pr_background-size.asp
-- 
+- https://www.delftstack.com/howto/css/background-image-not-showing-css/ (Hosting Images locally)
