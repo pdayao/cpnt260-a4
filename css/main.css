@@ -32,12 +32,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: left;
-  /*   text-align: center; */
 }
 
 #hero .info h1 {
   font-size: 3rem;
-  /* text-transform: uppercase; */
   margin-bottom: 1rem;
 }
 
@@ -53,6 +51,7 @@ body {
 
 #hero .info a {
   text-decoration: none;
+  text-transform: lowercase;
   display: inline-block;
   background-color: white;
   border-radius: 4px;
