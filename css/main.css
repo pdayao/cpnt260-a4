@@ -55,10 +55,16 @@ body {
   display: inline-block;
   background-color: white;
   border-radius: 4px;
+
   font-size: 1.8rem;
+  
   padding: 0.5em 2em;
   margin-top: 2rem;
   color: #ee6c09;
+}
+
+#hero .info a:hover {
+  background-color:bisque;
 }
 
 /* For mobile vers. */
